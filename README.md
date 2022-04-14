@@ -1,6 +1,6 @@
 
 <p style="text-align: center;"><span style="text-decoration: underline;"><strong>Simulaci&oacute;n&nbsp;mBot&nbsp;en Coppelia Sims</strong></span></p>
-<p><strong>Nota: necesita tres programas para que la simulaci&oacute;n&nbsp;&nbsp;funcione: COPPELIA SIMS&nbsp; PRO (EDU) de&nbsp;<a href="http://www.coppeliarobotics.com/index.html">Coppelia&nbsp;Robotics&nbsp;GmbH</a>,&nbsp;<a href="https://mblock.makeblock.com/en-us/">Makeblock&nbsp;Co., Ltd.</a> &nbsp;y emulador de puerto serial Com0com ,<a href="http://http://com0com.sourceforge.net/">Null moden emulator</a></strong></p>
+<p><strong>Nota: necesita tres programas para que la simulaci&oacute;n&nbsp;&nbsp;funcione: COPPELIA SIMS&nbsp; PRO (EDU) de&nbsp;<a href="http://www.coppeliarobotics.com/index.html">Coppelia&nbsp;Robotics&nbsp;GmbH</a>,&nbsp;<a href="https://mblock.makeblock.com/en-us/">Makeblock&nbsp;Co., Ltd.</a> &nbsp;y emulador de puerto serial Com0com ,<a href="http://com0com.sourceforge.net/">Null moden emulator</a></strong></p>
 <hr />
 <p>Este es el modelo&nbsp;mBot&nbsp;para simulaci&oacute;n en COPPELIA SIMS.&nbsp;Funciona&nbsp;recibiendo&nbsp;comandos&nbsp;de&nbsp;mBlock &nbsp;a trav&eacute;s de un puerto serie virtual y ejecut&aacute;ndolos en COPPELIA SIMS&nbsp;&nbsp;en un robot virtual.&nbsp;El modelo contiene el script&nbsp;lua&nbsp;que se encarga de la comunicaci&oacute;n por puerto&nbsp;serial&nbsp;&nbsp;y&nbsp;ejecuta comandos. Es f&aacute;cil de instalar y usar,&nbsp;</p>
 <p style="text-align: center;"><strong>Empezando</strong></p>

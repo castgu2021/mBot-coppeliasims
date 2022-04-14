@@ -51,7 +51,7 @@
 <p>Emulador Puertos seriales</p>
 </td>
 <td style="width: 192px;">
-<p><a href="https://sourceforge.net/projects/com0com/">eterlogic.com</a></p>
+<p><a href="https://sourceforge.net/projects/com0com/">Null modem</a></p>
 </td>
 </tr>
 </tbody>

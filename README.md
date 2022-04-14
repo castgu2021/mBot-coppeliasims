@@ -8,14 +8,14 @@
 <p style="text-align: center;"><strong>Empezando</strong></p>
 <p>Primero tienes que descargar e instalar los programas que necesitarás para simular el robot virtual&nbsp;mBot.</p>
 <p>&nbsp;</
-<table style="width: 512px;" border="0" cellspacing="0" cellpadding="0">
+table style="width: 512px;" border="0" cellspacing="0" cellpadding="0">
 <thead>
 <tr>
 <td style="width: 135px;">
 <p><strong>Programa</strong></p>
 </td>
 <td style="width: 176px;">
-<p><strong>Descripción</strong></p>
+<p><strong>Descripci&oacute;n</strong></p>
 </td>
 <td style="width: 192px;">
 <p><strong>&nbsp;Link&nbsp;de descarga</strong></p>
@@ -31,7 +31,7 @@
 <p>Robot&nbsp;simulation&nbsp;platform</p>
 </td>
 <td style="width: 192px;">
-<p><a href="https://www.coppeliarobotics.com/downloads#">coppeliarobotics.com</a></p>
+<p><a href="https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V4_1_0_Setup.zip">coppeliarobotics.com</a></p>
 </td>
 </tr>
 <tr>
@@ -47,13 +47,13 @@
 </tr>
 <tr>
 <td style="width: 135px;">
-<p>Com0Com</p>
+<p>Vspe</p>
 </td>
 <td style="width: 176px;">
 <p>Emulador Puertos seriales</p>
 </td>
 <td style="width: 192px;">
-<p><a href="https://sourceforge.net/projects/com0com/">com0com</a></p>
+<p><a href="http://www.eterlogic.com/Products.VSPE.html">eterlogic.com</a></p>
 </td>
 </tr>
 </tbody>

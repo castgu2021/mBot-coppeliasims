@@ -53,7 +53,7 @@
 <p>Emulador Puertos seriales</p>
 </td>
 <td style="width: 192px;">
-<p><a href="https://sourceforge.net/projects/com0com/>https://sourceforge.net/projects/com0com/</a></p>
+<p><a href="https://sourceforge.net/projects/com0com/">com0com/</a></p>
 </td>
 </tr>
 </tbody>

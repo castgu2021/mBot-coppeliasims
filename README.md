@@ -47,13 +47,13 @@
 </tr>
 <tr>
 <td style="width: 135px;">
-<p>Vspe</p>
+<p>Com0Com</p>
 </td>
 <td style="width: 176px;">
 <p>Emulador Puertos seriales</p>
 </td>
 <td style="width: 192px;">
-<p><a href="https://sourceforge.net/projects/com0com/>Com0com</a></p>
+<p><a href="https://sourceforge.net/projects/com0com/>https://sourceforge.net/projects/com0com/</a></p>
 </td>
 </tr>
 </tbody>

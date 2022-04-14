@@ -31,7 +31,7 @@
 <p>Robot&nbsp;simulation&nbsp;platform</p>
 </td>
 <td style="width: 192px;">
-<p><a href="https://https://www.coppeliarobotics.com/downloads#">coppeliarobotics.com</a></p>
+<p><a href="https://www.coppeliarobotics.com/downloads#">coppeliarobotics.com</a></p>
 </td>
 </tr>
 <tr>

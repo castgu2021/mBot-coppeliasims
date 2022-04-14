@@ -45,7 +45,7 @@
 </tr>
 <tr>
 <td style="width: 135px;">
-<p>Vspe</p>
+<p>Com0com</p>
 </td>
 <td style="width: 176px;">
 <p>Emulador Puertos seriales</p>
@@ -59,9 +59,8 @@
 <p>&nbsp;</p>
 <p><strong>Emulador de puerto serie virtual</strong></p>
 <p>Antes de iniciar la simulaci&oacute;n, debe crear un puerto serie virtual al que se puedan conectar COPPELIA SIMS&nbsp;&nbsp;y mBlock.</p>
-<p>1.Instale los drivers para para puerto virtual windows, proporcionados en&nbsp; la caperta compartida. ( Cuando instale los drivers hay que tener en cuenta el numero del puerto serial virtual asignado por windows.</p>
-<p>2. Ejecute vspe&nbsp; y escoja la opcion connector. seleccione el puerto igual al asigando&nbsp; en el momento de instalaci&oacute;n de los drivers para puerto serial&nbsp; virtual en windows, proporcionados para este curso.</p>
-<p><strong>Coppelia Sims versi&oacute;n 4.1</strong></p>
+<p>1. Ejecute Com0com&nbsp; y escoja la opcion add pair . seleccione use ports en ambos puertos y aplique.</p>
+<p><strong>Coppelia Sims versión 4.3</strong></p>
 <p>Este es el programa en el que ejecutar&aacute; su simulaci&oacute;n. Puede usar los archivos de&nbsp;escena .ttt&nbsp;proporcionados o simplemente el archivo de modelo&nbsp;mbot_modificado-v2.ttm&nbsp;en sus propios&nbsp;escenarioss. Despu&eacute;s de cargar un escenario o el modelo&nbsp;mBot, debe abrir los par&aacute;metros del script di&aacute;logo haciendo clic en el &iacute;cono ubicado a la derecha del &iacute;cono del script secundario adjunto en un objeto ficticio llamado&nbsp;mBotScript&nbsp;y seleccione el par&aacute;metro de nombre del puerto Com.&nbsp;Puede&nbsp;acceder a&nbsp;ellos&nbsp;expandiendo el nodo de vista de &aacute;rbol llamado&nbsp;mBot&nbsp;en la jerarqu&iacute;a de escenas. Ahora, para el&nbsp;valor ,&nbsp;ingrese el nombre del puerto que cre&oacute; usando el emulador de puerto serie virtual (por ejemplo, COM2) Cierre el cuadro de di&aacute;logo y ejecute la simulaci&oacute;n.</p>
 <p><strong>mBlock 5/ mblock 3</strong></p>
 <p>mBlock&nbsp;es un entorno de programaci&oacute;n gr&aacute;fica basado en Scratch. Aqu&iacute; puede hacer un programa para su robot virtual como lo har&iacute;a para el&nbsp;mBot&nbsp;real, excepto que no puede cargar programas, debe usar el modo de comando en su lugar (modo Scratch). puede ejecutar su programa, tiene que conectar&nbsp;mBlock&nbsp;al puerto serie virtual que cre&oacute; usando virtual serial port&nbsp;&nbsp;. Vaya ala opci&oacute;n Conectar-&gt; Puerto serie y elija ese puerto. Ahora usted puede iniciar su programa.</p>

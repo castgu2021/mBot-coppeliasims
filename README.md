@@ -1,70 +1,31 @@
+# mBot simulation in V-REP
 
-<p style="text-align: center;"><span style="text-decoration: underline;"><strong>Simulaci&oacute;n&nbsp;mBot&nbsp;en Coppelia Sims</strong></span></p>
-<p><strong>Nota: necesita tres programas para que la simulaci&oacute;n&nbsp;&nbsp;funcione: COPPELIA SIMS&nbsp; PRO (EDU) de&nbsp;<a href="http://www.coppeliarobotics.com/index.html">Coppelia&nbsp;Robotics&nbsp;GmbH</a>,&nbsp;<a href="https://mblock.makeblock.com/en-us/">Makeblock&nbsp;Co., Ltd.</a> &nbsp;y emulador de puerto serial Com0com ,<a href="http://com0com.sourceforge.net/">Null moden emulator</a></strong></p>
-<hr />
-<p>Este es el modelo&nbsp;mBot&nbsp;para simulaci&oacute;n en COPPELIA SIMS.&nbsp;Funciona&nbsp;recibiendo&nbsp;comandos&nbsp;de&nbsp;mBlock &nbsp;a trav&eacute;s de un puerto serie virtual y ejecut&aacute;ndolos en COPPELIA SIMS&nbsp;&nbsp;en un robot virtual.&nbsp;El modelo contiene el script&nbsp;lua&nbsp;que se encarga de la comunicaci&oacute;n por puerto&nbsp;serial&nbsp;&nbsp;y&nbsp;ejecuta comandos. Es f&aacute;cil de instalar y usar,&nbsp;</p>
-<p style="text-align: center;"><strong>Empezando</strong></p>
-<p>Primero tienes que descargar e instalar los programas que necesitar&aacute;s para simular el robot virtual&nbsp;mBot.</p>
-<p>&nbsp;</p>
-<table style="width: 512px;" border="0" cellspacing="0" cellpadding="0">
-<thead>
-<tr>
-<td style="width: 135px;">
-<p><strong>Programa</strong></p>
-</td>
-<td style="width: 176px;">
-<p><strong>Descripci&oacute;n</strong></p>
-</td>
-<td style="width: 192px;">
-<p><strong>&nbsp;Link&nbsp;de descarga</strong></p>
-</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="width: 135px;">
-<p>COPPELIA SIMS</p>
-</td>
-<td style="width: 176px;">
-<p>Robot&nbsp;simulation&nbsp;platform</p>
-</td>
-<td style="width: 192px;">
-<p><a href="https://www.coppeliarobotics.com/downloads">coppeliarobotics.com</a></p>
-</td>
-</tr>
-<tr>
-<td style="width: 135px;">
-<p>mBlock</p>
-</td>
-<td style="width: 176px;">
-<p>Graphical&nbsp;programming&nbsp;environment</p>
-</td>
-<td style="width: 192px;">
-<p><a href="https://mblock.makeblock.com/en-us/download/">makeblock.com</a></p>
-</td>
-</tr>
-<tr>
-<td style="width: 135px;">
-<p>Com0com</p>
-</td>
-<td style="width: 176px;">
-<p>Emulador Puertos seriales</p>
-</td>
-<td style="width: 192px;">
-<p><a href="https://sourceforge.net/projects/com0com/">Null modem</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<p><strong>Emulador de puerto serie virtual</strong></p>
-<p>Antes de iniciar la simulaci&oacute;n, debe crear un puerto serie virtual al que se puedan conectar COPPELIA SIMS&nbsp;&nbsp;y mBlock.</p>
-<p>1. Ejecute Com0com&nbsp; y escoja la opcion add pair . seleccione use ports en ambos puertos y aplique.</p>
-<p><strong>Coppelia Sims versión 4.3</strong></p>
-<p>Este es el programa en el que ejecutar&aacute; su simulaci&oacute;n. Puede usar los archivos de&nbsp;escena .ttt&nbsp;proporcionados o simplemente el archivo de modelo&nbsp;mbot_modificado-v2.ttm&nbsp;en sus propios&nbsp;escenarioss. Despu&eacute;s de cargar un escenario o el modelo&nbsp;mBot, debe abrir los par&aacute;metros del script di&aacute;logo haciendo clic en el &iacute;cono ubicado a la derecha del &iacute;cono del script secundario adjunto en un objeto ficticio llamado&nbsp;mBotScript&nbsp;y seleccione el par&aacute;metro de nombre del puerto Com.&nbsp;Puede&nbsp;acceder a&nbsp;ellos&nbsp;expandiendo el nodo de vista de &aacute;rbol llamado&nbsp;mBot&nbsp;en la jerarqu&iacute;a de escenas. Ahora, para el&nbsp;valor ,&nbsp;ingrese el nombre del puerto que cre&oacute; usando el emulador de puerto serie virtual (por ejemplo, COM2) Cierre el cuadro de di&aacute;logo y ejecute la simulaci&oacute;n.</p>
-<p><strong>mBlock 5/ mblock 3</strong></p>
-<p>mBlock&nbsp;es un entorno de programaci&oacute;n gr&aacute;fica basado en Scratch. Aqu&iacute; puede hacer un programa para su robot virtual como lo har&iacute;a para el&nbsp;mBot&nbsp;real, excepto que no puede cargar programas, debe usar el modo de comando en su lugar (modo Scratch). puede ejecutar su programa, tiene que conectar&nbsp;mBlock&nbsp;al puerto serie virtual que cre&oacute; usando virtual serial port&nbsp;&nbsp;. Vaya ala opci&oacute;n Conectar-&gt; Puerto serie y elija ese puerto. Ahora usted puede iniciar su programa.</p>
-<p><strong>Dispositivos simulados</strong></p>
-<p>Los dispositivos compatibles son motores, sensor ultras&oacute;nico, sensores de seguimiento de l&iacute;nea, LED a bordo y&nbsp;pantalla&nbsp;de&nbsp;siete&nbsp;segmentos</p>
-<p><strong>&nbsp;</strong></p>
-<p>&nbsp;</p>
+#### Note: you need three programs for this to work: V-REP PRO (EDU) from [Coppelia Robotics GmbH](http://www.coppeliarobotics.com/index.html), mBlock from [Makeblock Co., Ltd.](http://www.makeblock.com/) and virtual serial port emulator, I use the one from [ETERLOGIC.COM](http://www.eterlogic.com/Products.VSPE.html)
+
+---
+
+This is mBot model for simulation in V-REP. It works by receiving commands from mBlock through a virtual serial port and executing them in V-REP on a virtual robot. The model contains the lua script which takes care of serial communication and executes commands. It is easy to install and use, all programs that you need are free (for educational purpose).
+
+## Getting started
+First you have to download and install programs that you will need to simulate your virtual mBot robot.
+
+| Program name | Description | Download link |
+| :-------------: | :-------------: | :----: |
+| V-REP | Robot simulation platform | [coppeliarobotics.com](http://www.coppeliarobotics.com/downloads.html) |
+| mBlock | Graphical programming environment | [makeblock.com](http://learn.makeblock.com/en/software/)|
+| VSPE | Virtual serial port emulator | [eterlogic.com](http://www.eterlogic.com/Downloads.html)
+
+## Virtual serial port emulator
+Before starting the simulation you have to create a virtual serial port that V-REP and mBlock can connect to. Open VSPE and click on ``Create new device`` button in the toolbar or create a new device through the menu ``Device->Create``. Leave the device type on ``Connector``, click ``Next``, select a port that does not exist in your system (e.g. if you have a hardware serial port COM1 than select COM2 or some other port) and click ``Finish``. New virtual serial port should be created and initialized.
+
+## V-REP
+This is the program in which you will run your simulation. You can use .ttt scene files provided or just the model file ``mBot.ttm`` in your own scenes. After you load a scene or the mBot model, you have to open the ``Script Parameters`` dialog by clicking on the icon located on the right of the child script icon attached on a dummy object called ``mBotScript`` and select ``Com port name`` parameter. You can access those by expanding the treeview node called ``mBot`` in the scene hierarchy. Now, for the value, enter the name of the port that you created using virtual serial port emulator (e.g.``COM2``). Close the dialog and run the simulation.
+
+## mBlock
+mBlock is a graphical programming environment based on Scratch. Here you can make a program for your virtual robot as you would do for the real mBot except you can't upload programs, you have to use the command mode instead (Scratch mode). Before you can run your program, you have to connect mBlock to the virtual serial port that you created using VSPE (the same one that V-REP is connected to). Go to the menu ``Connect->Serial Port`` and choose that port. Now you can start your program.
+
+## Simulated devices
+Supported devices are motors, ultrasonic sensor, line follower sensors, LEDs on board and seven segment display. I'm still working on LED matrix and servo so in the next update those will be available too. This mBot model does not support Makeblock devices that can not be simulated in V-REP. For example, V-REP doesn't support sound so you can't use the ``Play tone`` block in mBlock. Maybe in the future versions I will make the code in C/C++ as a V-REP plugin to be able to support devices that are not supported in V-REP by default.
+
+## Using mBot script in other V-REP models
+With this script you can also simulate other (or your own) V-REP models. For that, you have to load your model in V-REP (or select one from the ``Model browser`` on the left), move the dummy object called ``mBotScript`` located inside of mBot model to the hierarchy of your loaded model using drag and drop. Then open the ``Script parameters`` dialog (descirbed above), select the joint name parameters one by one and set their values to the names of your model's joint objects. Joint name parameters are ``Left motor joint name`` and ``Right motor joint name``. Do the same for all name parameters like ``Ultrasonic sensor name``, ``Left line follower sensor name``, ``Right line follower sensor name`` etc. For the sensors or joints that you will not use you have to delete their value (set to blank) or the script will throw an error and stop. If you choose the model which already contains the script that controls your model's joints, you have to remove or disable that script. You can disable a script in V-REP in the ``Scripts`` dialog. Go to the menu ``Tools->Scripts`` and in the dialog select the script you want to disable than click on ``Disabled``.

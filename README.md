@@ -29,7 +29,7 @@
 <p>Robot&nbsp;simulation&nbsp;platform</p>
 </td>
 <td style="width: 192px;">
-<p><a href="https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V4_1_0_Setup.zip">coppeliarobotics.com</a></p>
+<p><a href="https://www.coppeliarobotics.com/downloads">coppeliarobotics.com</a></p>
 </td>
 </tr>
 <tr>
@@ -40,7 +40,7 @@
 <p>Graphical&nbsp;programming&nbsp;environment</p>
 </td>
 <td style="width: 192px;">
-<p><a href="http://learn.makeblock.com/en/software/">makeblock.com</a></p>
+<p><a href="https://mblock.makeblock.com/en-us/download/">makeblock.com</a></p>
 </td>
 </tr>
 <tr>
@@ -51,7 +51,7 @@
 <p>Emulador Puertos seriales</p>
 </td>
 <td style="width: 192px;">
-<p><a href="http://www.eterlogic.com/Products.VSPE.html">eterlogic.com</a></p>
+<p><a href="https://sourceforge.net/projects/com0com/">eterlogic.com</a></p>
 </td>
 </tr>
 </tbody>

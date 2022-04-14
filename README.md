@@ -1,4 +1,4 @@
-p>&nbsp;</p>
+
 <p style="text-align: center;"><span style="text-decoration: underline;"><strong>Simulaci&oacute;n&nbsp;mBot&nbsp;en Coppelia Sims</strong></span></p>
 <p><strong>Nota: necesita tres programas para que la simulaci&oacute;n&nbsp;&nbsp;funcione: COPPELIA SIMS&nbsp; PRO (EDU) de&nbsp;<a href="http://www.coppeliarobotics.com/index.html">Coppelia&nbsp;Robotics&nbsp;GmbH</a>,&nbsp;<a href="http://www.makeblock.com/">Makeblock&nbsp;Co., Ltd.</a> &nbsp;y emulador de puerto serial virtual Vspe ,<a href="http://www.eterlogic.com/Products.VSPE.html">Virtual-Serial-Vspe</a></strong></p>
 <hr />

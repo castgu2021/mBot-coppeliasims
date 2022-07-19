@@ -9,6 +9,7 @@ This script shows numbers (integers or floating point) by sending a signal as de
     -- If you send a number that is higher then it is possible to show, the display will show an error (four dashes)
     
     -- ID tekstura
+--actualizado por Gustavo castillo serrano para coppelia 4.2 o mayor
     txID_Num = {
         sim.getTextureId("Digit_Num1"),
         sim.getTextureId("Digit_Num2"),

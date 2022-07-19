@@ -47,13 +47,13 @@
 </tr>
 <tr>
 <td style="width: 135px;">
-<p>Vspe</p>
+<p>ComCom0</p>
 </td>
 <td style="width: 176px;">
 <p>Emulador Puertos seriales</p>
 </td>
 <td style="width: 192px;">
-<p><a href="http://www.eterlogic.com/Products.VSPE.html">eterlogic.com</a></p>
+<p><a href="http://www.eterlogic.com/Products.VSPE.html](https://sourceforge.net/projects/com0com/)">Null-modem emulator</a></p>
 </td>
 </tr>
 </tbody>

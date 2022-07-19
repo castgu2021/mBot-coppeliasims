@@ -1,6 +1,7 @@
 - Implementation of Orion protocol and part of mBot's firmware. This script executes commands sent from mBlock in scratch mode.
 -- Implementacija Orion protokola i dijela mBot firmware-a, izvr?avanje blokova iz mBlock-a za koje simulacija ima smisla.
 -- by Nenad Staji? 2017.
+--Actualizado Por Ing.Gustavo castillo Serrano  para ser usado Versiones de coppelia 4.2 o mayor.
 
 --********************
 --       Funtions    *

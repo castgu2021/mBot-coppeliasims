@@ -61,7 +61,7 @@
 <p>&nbsp;</p>
 <p><strong>Emulador de puerto serie virtual</strong></p>
 <p>Antes de iniciar la simulaci&oacute;n, debe crear un puerto serie virtual usando ComCom0,  al que se puedan conectar COPPELIA SIMS&nbsp;&nbsp;y mBlock.</p>
-<p>1. Ejecute ComCom0 ; y adicione un par de puertoso&nbsp</p>
+<p>1. Ejecute ComCom0 ; y adicione un par de puertos&nbsp</p>
 <p><strong>Coppelia Sims </strong></p>
 <p>Este es el programa en el que ejecutar&aacute; su simulaci&oacute;n. Puede usar los archivos de&nbsp;escena .ttt&nbsp;proporcionados o simplemente el archivo de modelo&nbsp;mbot.ttm&nbsp;en sus propios&nbsp;escenarioss. Despu&eacute;s de cargar un escenario o el modelo&nbsp;mBot, debe abrir los par&aacute;metros del script di&aacute;logo haciendo clic en el &iacute;cono ubicado a la derecha del &iacute;cono del script secundario adjunto en un objeto ficticio llamado&nbsp;mBotScript&nbsp;y seleccione el par&aacute;metro de nombre del puerto Com.&nbsp;Puede&nbsp;acceder a&nbsp;ellos&nbsp;expandiendo el nodo de vista de &aacute;rbol llamado&nbsp;mBot&nbsp;en la jerarqu&iacute;a de escenas. Ahora, para el&nbsp;valor ,&nbsp;ingrese el nombre del puerto que cre&oacute; usando el emulador de puerto serie virtual (por ejemplo, COM2) Cierre el cuadro de di&aacute;logo y ejecute la simulaci&oacute;n.</p>
 <p><strong>mBlock 5</strong></p>

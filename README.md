@@ -1,4 +1,4 @@
-# mBot-coppeliasims
+# mBot-coppeliasim
 >Modelo mbot modificado para trabajar con coppelias sims version 4.2 o Mayores
 <p>&nbsp;</p>
 <p style="text-align: center;"><span style="text-decoration: underline;"><strong>Simulaci&oacute;n&nbsp;mBot&nbsp;en Coppelia Sims</strong></span></p>

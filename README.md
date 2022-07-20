@@ -42,7 +42,7 @@
 <p>Graphical&nbsp;programming&nbsp;environment</p>
 </td>
 <td style="width: 192px;">
-<p><a href="http://learn.makeblock.com/en/software/">makeblock.com</a></p>
+<p><a href="https://www.makeblock.com/software/">makeblock.com</a></p>
 </td>
 </tr>
 <tr>
